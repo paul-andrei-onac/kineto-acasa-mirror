@@ -6,6 +6,21 @@
     <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive, hugo, static site" />
     <meta name="author" content="FREEHTML5.CO / Hugo port " />
  -->
+    {{- if not .Site.Params.app.noFavicon -}}
+    {{- with .Site.Params.app.svgFavicon -}}
+      <link rel="icon" href="{{ . }}">
+    {{- else -}}
+      <link rel="shortcut icon" type="image/x-icon" href="/images/favicon/favicon.ico" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    {{- end -}}
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    {{- with .Site.Params.app.iconColor -}}
+      <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="{{ . }}">
+    {{- end -}}
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    {{- end -}}
+
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
