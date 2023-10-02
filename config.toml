@@ -13,7 +13,7 @@ enableRobotsTXT = true
   # Meta
   author = ""
   description = "Kinetoterapie acasă la tine. Kinetoterapie la domiciliu București. Recuperare prin Kinetoterapie la tine acasă."
-  email = "paul.andrei.onac@gmail.com"
+  email = "xknlpbyp"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
@@ -24,7 +24,7 @@ enableRobotsTXT = true
     home = "Acasă"
     work = "Kinetoterapie"
     testimonials = "Testimoniale"
-    services = "Services"
+    services = "Servicii"
     about = "Despre"
     contact = "Contact"
 
@@ -53,31 +53,31 @@ enableRobotsTXT = true
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Kinetoterapie"
+    description = "Kinetoterapia face parte din medicina fizică – specialitate terapeutică."
     url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
+    button = "Vezi mai multe"
+    icon = "icon-diamond"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Servicii"
+    description = "Vezi toate serviciile efectuate la Kineto Acasă. Kinetoterapie la domiciliu."
     url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
+    button = "Vezi servicii"
+    icon = "icon-badge"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Contact"
+    description = "Exerciții de kinetoterapie la tine acasă pentru o viață sănătoasă și activă."
     url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
+    button = "Contactează-ne"
+    icon = "icon-envelope-open"
     img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -153,27 +153,28 @@ enableRobotsTXT = true
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Servicii Kineto Acasă"
+    description = "Serviciile efectuate la Kineto Acasă."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Evaluare Somato-Funcțională"
+      description = "Evaluarea inițială este necesară pentru aprecierea deficitului, pentru programele și activitățile kinetice în vederea recuperării, “a restantului funcțional pe care se bazează capacitățile și activitățile pacientului”, iar evaluarea finală vizează rezultatele obținute prin aplicarea programului de recuperare."
+      icon = "icon-info"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      title = "Kinetoterapie individuală"
+      description = "Prin kinetoterapia individuală – o recuperare prin mișcare a funcțiilor afectate de diverse traumatisme / boli, kinetoterapeutul va lucra cu un singur pacient. Numai așa pacientul va beneficia de toată atenția acestuia, de toate indicațiile în vederea unei posturări care să anuleze durerea."
+      icon = "icon-energy"
+
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "Bandajare Neuromusculară"
+      description = "Elasticitatea benzii aplicate e similară cu elasticitatea pielii, generând un efect de “lifting”, pe zona vizată, unde sunt diverși receptori, vase sangvine și limfatice, pentru o circulație sangvină mai bună și drenaj limfatic, pentru diminuarea presiunii asupra receptorilor durerii."
+      icon = "icon-bulb"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-monitor"
+      title = "Masaj Terapeutic"
+      description = "Masajul terapeutic este cea mai frecventă formă de terapie alternativă folosită în cazul durerilor musculare, având ca efect decontracturarea mușchilor și reducerea treptată a durerii. Efectul antialgic este considerabil. Apare destul de repede fiindcă se relaxează musculatura. Contribuie și la creșterea mobilității."
+      icon = "icon-heart"
 
   # About section
   [params.about]
