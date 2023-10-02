@@ -55,7 +55,7 @@ enableRobotsTXT = true
   [[params.intro.item]]
     title = "Kinetoterapie"
     description = "Kinetoterapia face parte din medicina fizică – specialitate terapeutică."
-    url = "#"
+    url = "#fh5co-work"
     button = "Vezi mai multe"
     icon = "icon-diamond"
     img = "img_7.jpg"
@@ -63,7 +63,7 @@ enableRobotsTXT = true
   [[params.intro.item]]
     title = "Servicii"
     description = "Vezi toate serviciile efectuate la Kineto Acasă. Kinetoterapie la domiciliu."
-    url = "#"
+    url = "#fh5co-services"
     button = "Vezi servicii"
     icon = "icon-badge"
     img = "img_8.jpg"
@@ -71,7 +71,7 @@ enableRobotsTXT = true
   [[params.intro.item]]
     title = "Contact"
     description = "Exerciții de kinetoterapie la tine acasă pentru o viață sănătoasă și activă."
-    url = "#"
+    url = "#fh5co-contact"
     button = "Contactează-ne"
     icon = "icon-envelope-open"
     img = "img_10.jpg"

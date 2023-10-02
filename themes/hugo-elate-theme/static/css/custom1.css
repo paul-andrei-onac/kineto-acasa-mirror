@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .fh5co-project-item {
   .img-responsive {
     height: 300px;
