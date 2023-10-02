@@ -1,7 +1,7 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
-languageCode = "en-us"
+title = "Kineto Acasa"
+languageCode = "ro-RO"
 theme = "hugo-elate-theme"
 
 enableRobotsTXT = true
@@ -12,20 +12,20 @@ enableRobotsTXT = true
 
   # Meta
   author = ""
-  description = ""
-  email = ""
+  description = "Kinetoterapie acasă la tine. Kinetoterapie la domiciliu București. Recuperare prin Kinetoterapie la tine acasă."
+  email = "paul.andrei.onac@gmail.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
 
   # Navigation
   [params.navigation]
-    brand = "Elate"
-    home = "Home"
+    brand = "Kineto Acasă"
+    home = "Acasă"
     work = "Work"
-    testimonials = "Testimonials"
+    testimonials = "Testimoniale"
     services = "Services"
-    about = "About"
+    about = "Despre"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -45,8 +45,8 @@ enableRobotsTXT = true
 
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "Kinetoterapie acasă la tine!"
+    subtitle = 'Kinetoterapie acasă la tine. Kinetoterapie la domiciliu București. Recuperare la tine acasă.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -129,29 +129,26 @@ enableRobotsTXT = true
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Testimonialele pacienților"
+    description = "Ce spun pacienții noștri despre Kineto Acasă, dar si despre Kinetoterapie, Recuperare la Domiciliu."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
+      quote = "Sesiunile de kinetoterapie pentru recuperarea după un AVC au fost cu adevărat benefice. Terapeutul meu a demonstrat o înțelegere profundă a nevoilor mele individuale, creând un plan de tratament personalizat. Cu abilitatea sa de a mă motiva și de a mă încuraja constant, am văzut îmbunătățiri semnificative în mobilitate, echilibru și forță musculară."
+      person = 'ova'
+      img = "florin-drogeanu.png"
+      alt = "Florin Drogeanu"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "Buna ziua, după o operație de tumoare pe creier și un accident vascular, tatăl meu in vârsta de 68 ani, a rămas imobilizat la par, cu pareza pe stânga. Noi, familia am considerat ca ar fi bine sa înceapă de urgentă ședințe de kineto…, și așa l-am întâlnit pe Andrei, o persoana excepțională, care îmi tratează părinții cu răbdare și respect. Datorită lui, intr-un timp record,  tatăl meu, poate sta in șezut, și, ajustat de cineva, poate face câțiva pași ( un miracol pentru noi)."
+      person = 'Florin Drogeanu'
+      img = "costica-grigore.png"
+      alt = "Costica Grigore"
+
+    [[params.testimonials.item]]
+      quote = "Sesiunile de kinetoterapie nu au fost doar o parte esențială a procesului meu de recuperare, ci și o sursă de inspirație și încredere în propriile capacități. Recomand cu căldură aceste sesiuni pentru toți cei care se recuperează după un AVC. Este o investiție în sănătate și bunăstare care merită fiecare efort depus. ⭐⭐⭐⭐⭐"
+      person = 'Sanda Abrasu'
       img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
-
-
-
+      alt = "Sanda Abrasu"
 
   # Services section
   [params.services]
@@ -181,53 +178,28 @@ enableRobotsTXT = true
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Despre Andrei"
+    description = "Sunt un fizioterapeut cu experiență, care oferă o gamă largă de tratamente axate pe recuperare pentru a le permite pacienților să se restabilească."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Andrei"
+      position = "Fiziokinetoterapeut"
+      description = "Licențiat în Kinetoterapie și Motricitate Specială (Universitatea “Dunărea de Jos”)"
       img = "person1.jpg"
-      alt = "Person1"
+      alt = "Andrei"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-facebook", "https://www.facebook.com/paul.andrei.onac"],
+        ["icon-linkedin", "https://www.linkedin.com/in/onac-paul-andrei"]
       ]
 
   # Counters section
   [params.counters]
     enable = true
-    title = "Stats"
+    title = "Kinetoterapeut experimentat"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
+      description = "Recuperări post AVC"
       icon = "icon-briefcase"
       from = 0
       to = 89
@@ -235,57 +207,57 @@ enableRobotsTXT = true
       speed = 5000
 
     [[params.counters.item]]
-      description = "Lines of code"
+      description = "Recuperări post-traumatice"
       icon = "icon-code"
       from = 0
-      to = 2343409
+      to = 150
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "Cups of coffee"
+      description = "Ședințe efectuate"
       icon = "icon-cup"
       from = 0
-      to = 1302
+      to = 2302
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "Happy clients"
+      description = "Pacienți Mulțumiti"
       icon = "icon-people"
       from = 0
-      to = 52
+      to = 152
       interval = 50
       speed = 5000
 
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "București, Sector 3"],
+        ["icon-phone", "+40 753 789 020"],
+        ["icon-envelope", "paul-andrei-onac@gmail.com"],
+        ["icon-globe", '<a href="https://paul-andrei-onac.ro" target="_blank">Kinetoterapeut</a>']
       ]
 
-    name = "Name"
+    name = "Nume"
     email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    phone = "Telefon"
+    message = "Mesaj"
+    button = "Trimite mesaj"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; Kineto Acasă 2023. Toate drepturile rezervate.'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-facebook", "https://www.facebook.com/paul.andrei.onac"],
+        ["icon-linkedin", "https://www.linkedin.com/in/onac-paul-andrei"],
+        ["icon-globe", "https://paul-andrei-onac.ro" ]
       ]
