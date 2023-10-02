@@ -186,7 +186,7 @@ enableRobotsTXT = true
       name = "Andrei"
       position = "Fiziokinetoterapeut"
       description = "Licențiat în Kinetoterapie și Motricitate Specială (Universitatea “Dunărea de Jos”)"
-      img = "person1.jpg"
+      img = "profile-pic.jpg"
       alt = "Andrei"
       social = [
         ["icon-facebook", "https://www.facebook.com/paul.andrei.onac"],
