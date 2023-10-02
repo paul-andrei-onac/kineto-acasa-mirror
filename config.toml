@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "https://kineto-acasa.ro"
 title = "Kineto Acasa"
 languageCode = "ro-RO"
 theme = "hugo-elate-theme"
