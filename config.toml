@@ -22,7 +22,7 @@ enableRobotsTXT = true
   [params.navigation]
     brand = "Kineto Acasă"
     home = "Acasă"
-    work = "Work"
+    work = "Kinetoterapie"
     testimonials = "Testimoniale"
     services = "Services"
     about = "Despre"
@@ -86,45 +86,45 @@ enableRobotsTXT = true
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Kinetoterapie"
+    description = "Kinetoterapia face parte din medicina fizică – specialitate terapeutică."
+    footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "recuperare-avc.jpg"
+      alt = "Reeducarea mersului"
+      title = "Reeducarea mersului"
+      subtitle = "Reeducare"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "recuperare-avc2.jpg"
+      alt = "Recuperare post AVC"
+      title = "Recuperare post AVC"
+      subtitle = "AVC"
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      img = "recuperare-avc3.jpg"
+      alt = "Recuperare post AVC"
+      title = "Recuperare post AVC"
+      subtitle = "AVC"
 
     [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      img = "recuperare-avc4.jpeg"
+      alt = "Recuperare Hernie de disc"
+      title = "Recuperare Hernie de disc"
+      subtitle = "Hernie de disc"
 
     [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      img = "masaj.jpg"
+      alt = "Mssaj Terapeutic"
+      title = "Mssaj Terapeutic"
+      subtitle = "Masaj"
 
     [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      img = "kinesio.webp"
+      alt = "Kinesio Taping"
+      title = "Kinesio Taping"
+      subtitle = "Kinesio"
 
   # Testimonials section
   [params.testimonials]
@@ -235,8 +235,8 @@ enableRobotsTXT = true
     enable = true
     map = false
     form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Contact"
+    description = "Exerciții de kinetoterapie la tine acasă pentru o viață sănătoasă și activă."
 
     # Available icons: http://simplelineicons.com/
     details = [
