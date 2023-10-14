@@ -1,7 +1,7 @@
 User-agent: *
 
-Disallow: /categories/
+Allow: /categories/
 
-Disallow: /
+Allow: /
 
-Disallow: /tags/
+Allow: /tags/

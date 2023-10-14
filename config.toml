@@ -196,7 +196,7 @@ enableRobotsTXT = true
   # Counters section
   [params.counters]
     enable = true
-    title = "Kinetoterapeut experimentat"
+    title = "Fiziokinetoterapeut experimentat"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
@@ -242,9 +242,9 @@ enableRobotsTXT = true
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "București, Sector 3"],
-        ["icon-phone", "+40 753 789 020"],
-        ["icon-envelope", "paul-andrei-onac@gmail.com"],
-        ["icon-globe", '<a href="https://paul-andrei-onac.ro" target="_blank">Kinetoterapeut</a>']
+        ["icon-whatsapp", '<a href="https://wa.me/+40753297184">WhatsApp</a>'],
+        ["icon-phone", '<a href="tel:+40753297184">0753 297 184</a>'],
+        ["icon-envelope", '<a href="mailto:paul.andrei.onac@gmail.com">paul.andrei.onac@gmail.com</a>']
       ]
 
     name = "Nume"
