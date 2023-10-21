@@ -11,7 +11,7 @@ enableRobotsTXT = true
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
-  author = ""
+  author = "Andrei"
   description = "Kinetoterapie acasă la tine. Kinetoterapie la domiciliu București. Recuperare prin Kinetoterapie la tine acasă."
   email = "xknlpbyp"
 
