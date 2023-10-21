@@ -3,10 +3,10 @@
     <title> {{ .Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="b_zdXTssy_Grn9M9dV5ogOeO_06ZK7XMI5qy3nj6UnQ">
-<!--     <meta name="description" content="Free HTML5 Template by FREEHTML5.CO - Hugo port by Pieter Saey" />
-    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive, hugo, static site" />
-    <meta name="author" content="FREEHTML5.CO / Hugo port " />
- -->
+
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, snippet, archive">
+
     {{- if not .Site.Params.app.noFavicon -}}
     {{- with .Site.Params.app.svgFavicon -}}
       <link rel="icon" href="{{ . }}">
