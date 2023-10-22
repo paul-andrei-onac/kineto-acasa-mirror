@@ -11,5 +11,8 @@
     "prod": "hugo --minify"
   },
   "author": "Andrei",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hugo-extended": "^0.119.0"
+  }
 }
