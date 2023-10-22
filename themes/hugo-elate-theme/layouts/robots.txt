@@ -1,4 +1,14 @@
 User-agent: *
-{{ range .Pages }}
+
+Allow: */png/*
+Allow: */jpg/*
+Allow: */gif/*
+Allow: */js/*
+Allow: */css/*
+
+{{ range .Pages -}}
 Allow: {{ .RelPermalink }}
 {{ end }}
+
+Host: {{ .Permalink }}
+Sitemap: {{ "/sitemap.xml" | absLangURL }}
