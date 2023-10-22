@@ -1,0 +1,282 @@
+
+custom_css = ["css/custom1.css", "css/custom2.css"]
+
+# Meta
+author = "Andrei"
+description = "Kinetoterapie acasă la tine. Kinetoterapie la domiciliu București. Recuperare prin Kinetoterapie la tine acasă."
+email = "xknlpbyp"
+
+# Google Maps Javascript API Key (if not set will default to not passing a key)
+googleMapsApiKey = ""
+
+# Navigation
+[navigation]
+brand = "Kineto Acasă"
+home = "Acasă"
+work = "Kinetoterapie"
+testimonials = "Testimoniale"
+services = "Servicii"
+about = "Despre"
+contact = "Contact"
+
+# You can add custom links before or after the default links
+# Assign a weight to define the order
+
+# prepended links
+#[[menu.prepend]]
+#  url = "http://gohugo.io"
+#  name = "Hugo"
+#  weight = 10
+
+# postpended links
+#[[menu.postpend]]
+#  url = "http://gohugo.io"
+#  name = "External link"
+#  weight = 10
+
+# Hero section
+[hero]
+title = "Kinetoterapie acasă la tine!"
+subtitle = 'Kinetoterapie acasă la tine. Kinetoterapie la domiciliu București. Recuperare la tine acasă.'
+
+# Intro section
+# Available icons: http://simplelineicons.com/
+[intro]
+
+[[intro.item]]
+title = "Kinetoterapie"
+description = "Kinetoterapia face parte din medicina fizică – specialitate terapeutică."
+url = "#fh5co-work"
+button = "Vezi mai multe"
+icon = "icon-diamond"
+img = "img_7.jpg"
+
+[[intro.item]]
+title = "Servicii"
+description = "Vezi toate serviciile efectuate la Kineto Acasă. Kinetoterapie la domiciliu."
+url = "#fh5co-services"
+button = "Vezi servicii"
+icon = "icon-badge"
+img = "img_8.jpg"
+
+[[intro.item]]
+title = "Contact"
+description = "Exerciții de kinetoterapie la tine acasă pentru o viață sănătoasă și activă."
+url = "#fh5co-contact"
+button = "Contactează-ne"
+icon = "icon-envelope-open"
+img = "img_10.jpg"
+
+[intro.video]
+enable = false
+title = "Watch the video"
+icon = "icon-play2"
+url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+# Work section
+[work]
+enable = true
+title = "Kinetoterapie"
+description = "Kinetoterapia face parte din medicina fizică – specialitate terapeutică."
+footertext = ''
+
+[[work.row]]
+img = "recuperare-avc.jpg"
+alt = "Reeducarea mersului"
+title = "Reeducarea mersului"
+subtitle = "Reeducare"
+
+[[work.row]]
+img = "recuperare-avc2.jpg"
+alt = "Recuperare post AVC"
+title = "Recuperare post AVC"
+subtitle = "AVC"
+
+[[work.row]]
+img = "recuperare-avc3.jpg"
+alt = "Recuperare post AVC"
+title = "Recuperare post AVC"
+subtitle = "AVC"
+
+[[work.row]]
+img = "recuperare-avc4.jpeg"
+alt = "Recuperare Hernie de disc"
+title = "Recuperare Hernie de disc"
+subtitle = "Hernie de disc"
+
+[[work.row]]
+img = "masaj.jpg"
+alt = "Mssaj Terapeutic"
+title = "Mssaj Terapeutic"
+subtitle = "Masaj"
+
+[[work.row]]
+img = "kinesio.webp"
+alt = "Kinesio Taping"
+title = "Kinesio Taping"
+subtitle = "Kinesio"
+
+# Testimonials section
+[testimonials]
+enable = true
+title = "Testimonialele pacienților"
+description = "Ce spun pacienții noștri despre Kineto Acasă, dar si despre Kinetoterapie, Recuperare la Domiciliu."
+
+[[testimonials.item]]
+quote = "Sesiunile de kinetoterapie pentru recuperarea după un AVC au fost cu adevărat benefice. Terapeutul meu a demonstrat o înțelegere profundă a nevoilor mele individuale, creând un plan de tratament personalizat. Cu abilitatea sa de a mă motiva și de a mă încuraja constant, am văzut îmbunătățiri semnificative în mobilitate, echilibru și forță musculară."
+person = 'ova'
+img = "florin-drogeanu.png"
+alt = "Florin Drogeanu"
+
+[[testimonials.item]]
+quote = "Buna ziua, după o operație de tumoare pe creier și un accident vascular, tatăl meu in vârsta de 68 ani, a rămas imobilizat la par, cu pareza pe stânga. Noi, familia am considerat ca ar fi bine sa înceapă de urgentă ședințe de kineto…, și așa l-am întâlnit pe Andrei, o persoana excepțională, care îmi tratează părinții cu răbdare și respect. Datorită lui, intr-un timp record,  tatăl meu, poate sta in șezut, și, ajustat de cineva, poate face câțiva pași ( un miracol pentru noi)."
+person = 'Florin Drogeanu'
+img = "costica-grigore.png"
+alt = "Costica Grigore"
+
+[[testimonials.item]]
+quote = "Sesiunile de kinetoterapie nu au fost doar o parte esențială a procesului meu de recuperare, ci și o sursă de inspirație și încredere în propriile capacități. Recomand cu căldură aceste sesiuni pentru toți cei care se recuperează după un AVC. Este o investiție în sănătate și bunăstare care merită fiecare efort depus. ⭐⭐⭐⭐⭐"
+person = 'Sanda Abrasu'
+img = "person2.jpg"
+alt = "Sanda Abrasu"
+
+# Services section
+[services]
+enable = true
+title = "Servicii Kineto Acasă"
+description = "Serviciile efectuate la Kineto Acasă."
+
+[[services.item]]
+title = "Evaluare Somato-Funcțională"
+description = "Evaluarea inițială este necesară pentru aprecierea deficitului, pentru programele și activitățile kinetice în vederea recuperării, “a restantului funcțional pe care se bazează capacitățile și activitățile pacientului”, iar evaluarea finală vizează rezultatele obținute prin aplicarea programului de recuperare."
+icon = "icon-info"
+
+[[services.item]]
+title = "Kinetoterapie individuală"
+description = "Prin kinetoterapia individuală – o recuperare prin mișcare a funcțiilor afectate de diverse traumatisme / boli, kinetoterapeutul va lucra cu un singur pacient. Numai așa pacientul va beneficia de toată atenția acestuia, de toate indicațiile în vederea unei posturări care să anuleze durerea."
+icon = "icon-energy"
+
+[[services.item]]
+title = "Bandajare Neuromusculară"
+description = "Elasticitatea benzii aplicate e similară cu elasticitatea pielii, generând un efect de “lifting”, pe zona vizată, unde sunt diverși receptori, vase sangvine și limfatice, pentru o circulație sangvină mai bună și drenaj limfatic, pentru diminuarea presiunii asupra receptorilor durerii."
+icon = "icon-bulb"
+
+[[services.item]]
+title = "Masaj Terapeutic"
+description = "Masajul terapeutic este cea mai frecventă formă de terapie alternativă folosită în cazul durerilor musculare, având ca efect decontracturarea mușchilor și reducerea treptată a durerii. Efectul antialgic este considerabil. Apare destul de repede fiindcă se relaxează musculatura. Contribuie și la creșterea mobilității."
+icon = "icon-heart"
+
+# About section
+[about]
+enable = true
+title = "Despre Andrei"
+description = "Sunt un fizioterapeut cu experiență, care oferă o gamă largă de tratamente axate pe recuperare pentru a le permite pacienților să se restabilească."
+
+[[about.item]]
+name = "Andrei"
+position = "Fiziokinetoterapeut"
+description = "Licențiat în Kinetoterapie și Motricitate Specială (Universitatea “Dunărea de Jos”)"
+img = "profile-pic.jpg"
+alt = "Andrei"
+social = [
+  [
+    "icon-facebook",
+    "https://www.facebook.com/paul.andrei.onac",
+  ],
+  [
+    "icon-linkedin",
+    "https://www.linkedin.com/in/onac-paul-andrei",
+  ],
+]
+
+# Counters section
+[counters]
+enable = true
+title = "Fiziokinetoterapeut experimentat"
+background = "full_image_1.jpg"
+
+[[counters.item]]
+description = "Recuperări post AVC"
+icon = "icon-briefcase"
+from = 0
+to = 89
+interval = 50
+speed = 5000
+
+[[counters.item]]
+description = "Recuperări post-traumatice"
+icon = "icon-code"
+from = 0
+to = 150
+interval = 50
+speed = 5000
+
+[[counters.item]]
+description = "Ședințe efectuate"
+icon = "icon-cup"
+from = 0
+to = 2302
+interval = 50
+speed = 5000
+
+[[counters.item]]
+description = "Pacienți Mulțumiti"
+icon = "icon-people"
+from = 0
+to = 152
+interval = 50
+speed = 5000
+
+# Contact section
+[contact]
+enable = true
+map = false
+form = true
+title = "Contact"
+description = "Exerciții de kinetoterapie la tine acasă pentru o viață sănătoasă și activă."
+
+# Available icons: http://simplelineicons.com/
+details = [
+  [
+    "icon-home",
+    "București, Sector 3",
+  ],
+  [
+    "icon-whatsapp",
+    '<a href="https://wa.me/+40753297184">WhatsApp</a>',
+  ],
+  [
+    "icon-phone",
+    '<a href="tel:+40753297184">0753 297 184</a>',
+  ],
+  [
+    "icon-envelope",
+    '<a href="mailto:paul.andrei.onac@gmail.com">paul.andrei.onac@gmail.com</a>',
+  ],
+]
+
+name = "Nume"
+email = "Email"
+phone = "Telefon"
+message = "Mesaj"
+button = "Trimite mesaj"
+
+# Footer section
+[footer]
+enable = true
+copyright = '&copy; Kineto Acasă 2023. Toate drepturile rezervate.'
+links = [
+  [
+    "icon-facebook",
+    "https://www.facebook.com/paul.andrei.onac",
+  ],
+  [
+    "icon-linkedin",
+    "https://www.linkedin.com/in/onac-paul-andrei",
+  ],
+  [
+    "icon-globe",
+    "https://paul-andrei-onac.ro",
+  ],
+]

@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf public",
+    "build": "hugo",
+    "dev": "hugo server --watch --disableFastRender",
+    "watch": "hugo && hugo server --watch --disableFastRender",
+    "prod": "hugo --minify"
   },
-  "author": "",
+  "author": "Andrei",
   "license": "ISC"
 }
