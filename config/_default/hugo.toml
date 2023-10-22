@@ -33,4 +33,4 @@ enableEmoji = true
 enableInlineShortcodes = true
 
 # wather to use taxonomies or not
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "term"]
