@@ -4,8 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="b_zdXTssy_Grn9M9dV5ogOeO_06ZK7XMI5qy3nj6UnQ">
 
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow, snippet, archive">
+    {{ if eq .Kind "404" -}}
+      <meta name="robots" content="noindex, nofollow">
+    {{ end }}
+    {{ if and (not .Site.IsServer) hugo.IsProduction }}
+      <meta name="robots" content="index, follow">
+      <meta name="googlebot" content="index, follow, snippet, archive">
+    {{ else }}
+      <meta name="robots" content="noindex, nofollow">
+      <meta name="googlebot" content="noindex, nofollow">
+    {{ end }}
 
     {{- if not .Site.Params.app.noFavicon -}}
     {{- with .Site.Params.app.svgFavicon -}}
