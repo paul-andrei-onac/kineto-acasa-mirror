@@ -5,6 +5,7 @@ author = "Andrei"
 description = "Kinetoterapie acasă la tine. Kinetoterapie la domiciliu București. Recuperare prin Kinetoterapie la tine acasă."
 email = "xknlpbyp"
 
+googleTagManager = "GTM-5NJST3H3"
 # Google Maps Javascript API Key (if not set will default to not passing a key)
 googleMapsApiKey = ""
 

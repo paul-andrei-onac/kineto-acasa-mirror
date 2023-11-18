@@ -1,49 +1,45 @@
 <!DOCTYPE html>
 <!--[if lte 8]><html class="pre-ie9" lang="{{ .Site.LanguageCode }}"><![endif]-->
 <!--[if gte IE 9]><!--><html class="no-js" lang="{{ .Site.LanguageCode }}" dir="{{ .Site.Language.LanguageDirection }}"><!--<![endif]-->
-    <head>
-        {{ partial "head.html" .}}
-    </head>
-    <body>
-        {{ partial "nav.html" .}}
+{{ partial "head.html" .}}
 
-		{{ partial "hero.html" .}}
-		
-        {{ partial "intro.html" .}}
+<body>
+	{{ partial "google-tag-manager/gtm-body" . }}
+	{{ partial "nav.html" .}}
 
-		{{ if .Site.Params.work.enable }}
-       		{{ partial "work.html" .}}
-       	{{ end }}
+	{{ partial "hero.html" .}}
 
-		{{ if .Site.Params.testimonials.enable }}
-        	{{ partial "testimonials.html" .}}
-		{{ end }}
+	{{ partial "intro.html" .}}
 
-		{{ if .Site.Params.services.enable }}
-        	{{ partial "services.html" .}}
-		{{ end }}
+	{{ if .Site.Params.work.enable }}
+	{{ partial "work.html" .}}
+	{{ end }}
 
-		{{ if .Site.Params.about.enable }}
-        	{{ partial "about.html" .}}
-		{{ end }}
+	{{ if .Site.Params.testimonials.enable }}
+	{{ partial "testimonials.html" .}}
+	{{ end }}
 
-		{{ if .Site.Params.counters.enable }}
-        	{{ partial "counters.html" .}}
-        {{ end }}
+	{{ if .Site.Params.services.enable }}
+	{{ partial "services.html" .}}
+	{{ end }}
 
-		{{ if .Site.Params.contact.enable }}
-        	{{ partial "contact.html" .}}
-        {{ end }}
+	{{ if .Site.Params.about.enable }}
+	{{ partial "about.html" .}}
+	{{ end }}
 
-        {{ if .Site.Params.footer.enable }}
-        	{{ partial "footer.html" .}}
-        {{ end }}
+	{{ if .Site.Params.counters.enable }}
+	{{ partial "counters.html" .}}
+	{{ end }}
 
-        {{ partial "js.html" .}}
+	{{ if .Site.Params.contact.enable }}
+	{{ partial "contact.html" .}}
+	{{ end }}
 
-				<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NJST3H3"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-    </body>
+	{{ if .Site.Params.footer.enable }}
+	{{ partial "footer.html" .}}
+	{{ end }}
+
+	{{ partial "js.html" .}}
+
+</body>
 </html>
