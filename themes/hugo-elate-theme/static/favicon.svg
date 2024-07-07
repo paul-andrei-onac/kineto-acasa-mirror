@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="179.987366" height="177.374756"><svg width="179.987366" height="177.374756" viewBox="0 0 179.987 177.375" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs></defs>
+	<g opacity="0.600000">
+		<path id="SvgjsPath1005" d="M134.58 11.08C141.13 14.81 147.18 19.32 152.56 24.5L111.21 79.22C107.01 84.77 106.96 92.39 111.09 97.99L111.21 98.15L152.56 152.87C147.18 158.05 141.13 162.56 134.58 166.28L93.22 111.55C83.08 98.13 82.98 79.74 92.92 66.22L93.22 65.82L134.58 11.08Z" fill="#6614B2" fill-opacity="1.000000" fill-rule="nonzero"></path>
+	</g>
+	<g opacity="0.400000">
+		<path id="SvgjsPath1004" d="M100.74 0C108.34 0.89 115.66 2.73 122.56 5.4L102.55 84.86C101.94 87.28 101.92 89.83 102.49 92.27L102.55 92.51L122.56 171.97C115.66 174.63 108.34 176.46 100.74 177.37L80.73 97.93C79.23 91.97 79.2 85.74 80.65 79.77L80.73 79.44L100.74 0Z" fill="#6614B2" fill-opacity="1.000000" fill-rule="nonzero"></path>
+	</g>
+	<g opacity="0.200000">
+		<path id="SvgjsPath1003" d="M79.24 0L99.25 79.44C100.75 85.39 100.78 91.63 99.33 97.6L99.25 97.93L79.24 177.37C71.64 176.48 64.32 174.63 57.42 171.97L77.43 92.51C78.04 90.08 78.06 87.54 77.49 85.1L77.43 84.86L57.42 5.4C64.32 2.73 71.64 0.9 79.24 0Z" fill="#6614B2" fill-opacity="1.000000" fill-rule="nonzero"></path>
+	</g>
+	<g opacity="0.100000">
+		<path id="SvgjsPath1002" d="M45.4 11.08L86.76 65.82C96.9 79.23 97 97.63 87.06 111.15L86.76 111.55L45.4 166.28C38.85 162.56 32.8 158.05 27.42 152.87L68.77 98.15C72.97 92.6 73.02 84.98 68.89 79.38L68.77 79.22L27.42 24.5C32.8 19.32 38.85 14.81 45.4 11.08Z" fill="#6614B2" fill-opacity="1.000000" fill-rule="nonzero"></path>
+	</g>
+	<path id="SvgjsPath1001" d="M143.41 36.6L168.73 61.72C183.58 76.46 183.73 100.26 169.18 115.18L168.73 115.63L143.41 140.75L129.78 122.71L152.83 99.83C158.98 93.73 159.04 83.87 153.01 77.7L152.83 77.52L129.78 54.64L143.41 36.6Z" fill="#6614B2" fill-opacity="1.000000" fill-rule="nonzero"></path>
+	<path id="SvgjsPath1000" d="M36.57 36.6L50.2 54.64L27.15 77.52C21 83.62 20.94 93.48 26.97 99.65L27.15 99.83L50.2 122.71L36.57 140.75L11.25 115.63C-3.6 100.89 -3.75 77.09 10.8 62.17L11.25 61.72L36.57 36.6Z" fill="#6614B2" fill-opacity="1.000000" fill-rule="nonzero"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: contrast(0.3846153846153846) brightness(4.5); } }
+</style></svg>
