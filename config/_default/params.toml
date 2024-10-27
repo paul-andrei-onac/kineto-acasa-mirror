@@ -242,13 +242,13 @@ details = [
     "icon-home",
     "București, Sector 3",
   ],
-  [
-    "icon-whatsapp",
-    '<a href="https://wa.me/+40753297184">WhatsApp</a>',
-  ],
+  # [
+  #   "icon-whatsapp",
+  #   '<a href="https://wa.me/+40">WhatsApp</a>',
+  # ],
   [
     "icon-phone",
-    '<a href="tel:+40753297184">0753 297 184</a>',
+    '<p>0753 297 184</p>',
   ],
   [
     "icon-envelope",
