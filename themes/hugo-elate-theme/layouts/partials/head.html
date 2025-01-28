@@ -8,7 +8,7 @@
   {{ if eq .Kind "404" -}}
   <meta name="robots" content="noindex, nofollow">
   {{ end }}
-  {{ if and (not .Site.IsServer) hugo.IsProduction }}
+  {{ if and (not page.Site) hugo.IsProduction }}
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow, snippet, archive">
   {{ else }}
@@ -67,10 +67,10 @@
   <!-- Bootstrap  -->
   <link rel="stylesheet" href="css/bootstrap.css">
 
-  <!-- 
-    Default Theme Style 
+  <!--
+    Default Theme Style
     You can change the style.css (default color purple) to one of these styles
-    
+
     1. pink.css
     2. blue.css
     3. turquoise.css
